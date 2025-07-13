@@ -1,0 +1,11 @@
+{
+  "name": "suma-interactiva-llevada",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "echo \"Configura aquÃ­ tu servidor local\""
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
