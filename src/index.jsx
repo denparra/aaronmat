@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import ProblemInput from './components/ProblemInput';
+import SumVisualizer from './components/SumVisualizer';
 import './styles/tailwind.css'; // asumiendo que ya configuraste Tailwind
 
 function App() {
@@ -19,9 +20,7 @@ function App() {
       {!sumandos ? (
         <ProblemInput onStart={handleStart} />
       ) : (
-        <p className="mt-4">
-          Preparando el siguiente paso para sumar: <strong>{sumandos[0]} + {sumandos[1]}</strong>
-        </p>
+        <SumVisualizer a={sumandos[0]} b={sumandos[1]} onReset={() => setSumandos(null)} />
       )}
     </div>
   );
