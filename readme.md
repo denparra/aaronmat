@@ -76,7 +76,7 @@ La herramienta guía al niño paso a paso en el proceso de sumar dos números (h
    # o
    yarn install
    ```
-3. Iniciar servidor de desarrollo:
+3. Iniciar servidor de desarrollo (Vite):
    ```bash
    npm run dev
    # o
