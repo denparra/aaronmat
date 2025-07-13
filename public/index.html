@@ -1,31 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Suma Interactiva con Llevada</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
-  <div id="app">
-    <header><h1>Suma Interactiva con Llevada</h1></header>
-    <section id="input-section">
-      <label for="sum-input">Ingresa tu suma (ej. 1890 + 1148):</label>
-      <input type="text" id="sum-input" placeholder="0000 + 0000"/>
-      <button id="start-btn">Iniciar</button>
-    </section>
-    <section id="positional-area" class="hidden">
-      <div class="column" data-pos="3"><strong>Miles</strong><div class="slots"></div></div>
-      <div class="column" data-pos="2"><strong>Centenas</strong><div class="slots"></div></div>
-      <div class="column" data-pos="1"><strong>Decenas</strong><div class="slots"></div></div>
-      <div class="column" data-pos="0"><strong>Unidades</strong><div class="slots"></div></div>
-      <button id="next-step-btn" class="hidden">Siguiente Paso</button>
-    </section>
-    <section id="feedback-area" class="hidden">
-      <p id="feedback-msg"></p>
-      <div id="result-display"></div>
-    </section>
-  </div>
-  <script src="js/app.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/index.js"></script>
 </body>
 </html>

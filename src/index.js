@@ -1,4 +1,4 @@
-﻿// Punto de entrada de tu app (a flesh out)
+// Punto de entrada de tu app (a flesh out)
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import ProblemInput from './components/ProblemInput';
